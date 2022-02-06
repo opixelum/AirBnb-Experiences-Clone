@@ -1,0 +1,40 @@
+* {
+    font-family: "Poppins";
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+nav {
+    width: 100%;
+    padding: 20px;
+    box-shadow: 0 2px 10px #aaaaaa;
+}
+
+nav > img {
+    max-width: 100px;
+}
+
+.hero-div {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 5%;
+}
+
+.hero-div h1, .hero-div p {
+    width: 100%;
+    margin: 0;
+}
+
+.hero-div p {
+    margin-right: 30%;
+}
+
+.hero-div > img {
+    max-width: 800px;
+    width: 90%;
+    margin: 5% 10%;
+}
