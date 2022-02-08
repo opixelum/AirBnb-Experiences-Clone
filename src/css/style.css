@@ -7,6 +7,12 @@ body {
     margin: 0;
 }
 
+header {
+    position: sticky;
+    top: 0;
+    background-color: white;
+}
+
 nav {
     width: 100%;
     padding: 20px;
@@ -29,12 +35,42 @@ nav > img {
     margin: 0;
 }
 
+.hero-div img {
+    max-width: 800px;
+    width: 90%;
+    margin: 0 10% 30px;
+}
+
 .hero-div p {
     margin-right: 30%;
 }
 
-.hero-div > img {
-    max-width: 800px;
-    width: 90%;
-    margin: 5% 10%;
+#card ul {
+    list-style: none;
+    margin: 5%;
+    padding: 0;
 }
+
+#card li {
+    width: 200px;
+}
+
+.thumbnail {
+    width: 200px;
+    border-radius: 15px;
+}
+
+.favorite-icon {
+    width: 20px;
+}
+
+small {
+    margin: 30px 5px;
+    color: grey;
+}
+
+#card p {
+    margin: 0;
+    font-size: smaller;
+}
+
